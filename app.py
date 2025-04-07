@@ -202,11 +202,11 @@ def main():
 
     with col1:
         image1 = Image.open("scenario.png")
-        st.image(image1, caption="特教學習場景", use_column_width=True)
+        st.image(image1, caption="特教學習場景", use_container_width=True)
 
     with col2:
         image2 = Image.open("logo.png")
-        st.image(image2, caption="Unlimiter ATEL Inc.", use_column_width=True)
+        st.image(image2, caption="Unlimiter ATEL Inc.", use_container_width=True)
 
     # Add some space
     st.write("")
